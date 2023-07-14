@@ -1,6 +1,10 @@
 header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
+    height: 32px;
+    width: 1000px;
+    align-items: center;
+    
 }
 
 nav a:hover{
@@ -11,10 +15,28 @@ nav a{
     font-family: 'Source Sans Pro';
     font-weight: bold;
     font-size: 12px;
+    color: #ffffff;
 }
 main{
+    width: 1400px;
+    height: 800px;
     background-image: url("Assests/headphones_hero_1.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+button{
+    background-color: #FF6565;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-weight: 14px;
+    color: #ffffff;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    box-shadow: 0 2;
+    border: none;
+
+
 }
