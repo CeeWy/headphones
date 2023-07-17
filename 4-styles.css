@@ -206,6 +206,7 @@ button:hover{
 
 .contactUs h1{
     font-size: 32px;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -213,6 +214,33 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    height: 180px;
+    width: 335px;
+}
+label{
+    font-size: 14px;
+    font-weight: 500;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #979797;
+    outline: none;
+    width: 335px;
+}
+input[type=text]:focus {
+    border-bottom: 1px solid #FF6565;
+  }
+.contactUs form div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 335px;
+    height: 30px;
+}
+
+.contactUs button{
+    box-shadow: none;
 }
 footer{
     margin-top: 130px;
