@@ -1,0 +1,216 @@
+/*Header and Navigation Bar*/
+header{
+    height: 32px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header div img{
+    height: 32px;
+    width:160px;
+}
+
+nav{
+    height: 15px;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a:hover{
+    color:#ff6565;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/*Body styling*/
+body{
+    margin: 0;
+    padding: 0;
+    width: 1400px;
+    height:3000px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    background-image: url("Assests/headphones_hero_1.jpg");
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**main styling**/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+/** intro section styling**/
+.intro{
+    width: 640px;
+    height:315px;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.intro h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.intro h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin:0;
+}
+.intro p{
+    margin-top: 70px;
+}
+button{
+    background-color: #FF6565;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-weight: 14px;
+    color: #ffffff;
+    width: 160px;
+    height: 45px;
+    border-radius: 22px;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+main a{
+    text-decoration: none;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+/**what we do section styling**/
+.whatWeDo{
+    margin-top: 250px;
+    color: #071629;
+    width: 640px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whatWeDo h1{
+    font-size: 32px;
+}
+
+.items{
+    margin-top: 80px;
+    height: 190px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.audio{
+    height: 180px;
+    width: 210px;
+}
+.video{
+    height: 190px;
+    width: 210px;
+}
+.music{
+    height: 180px;
+    width: 210px;
+}
+.ear{
+    height: 180px;
+    width: 210px;
+}
+
+.items h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.items p{
+    font-size: 14px;
+}
+
+/**Results Section**/
+
+.ourResults{
+    margin-top: 100px;
+    height: 650px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("Assests/headphones_hero_2.jpg");
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
+    background-position: 0px -70px;
+    color: #ffffff;
+}
+#resultText{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 185px;
+    width: 640px;
+}
+
+#ratings{
+    margin-top: 50px;
+    height: 190px;
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+.results{
+    height: 190px;
+    width: 190px;
+}
+.ourResults h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#ratings .results img{
+    height: 190px;
+    width: 190px;
+}
+
+/**Contact us Styling**/
+.contactUs{
+    margin-top: 100px;
+    height: 375px;
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactUs h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+.contactUs form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
